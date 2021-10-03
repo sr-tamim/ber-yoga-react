@@ -1,4 +1,5 @@
 # Learn Yoga - Be Fit & Healthy
+> Best Yoga Learning Platform
 
 - Best yoga services
 - New classes every week
