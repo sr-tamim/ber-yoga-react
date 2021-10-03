@@ -25,9 +25,9 @@ const Header = () => {
                         </button>
                         <div className="collapse navbar-collapse flex-grow-0" id="navBar">
                             <div className="navbar-nav text-center fw-bold">
-                                <NavLink className="nav-link px-3 active" aria-current="page" to="/home">Home</NavLink>
-                                <NavLink className="nav-link px-3" to="/services">Services</NavLink>
-                                <NavLink className="nav-link px-3" to="/pricing">Pricing</NavLink>
+                                <NavLink className="nav-link px-3 active" aria-current="page" to="/home" activeStyle={{ color: "red" }}>Home</NavLink>
+                                <NavLink className="nav-link px-3" to="/services" activeStyle={{ color: "red" }}>Services</NavLink>
+                                <NavLink className="nav-link px-3" to="/pricing" activeStyle={{ color: "red" }}>Pricing</NavLink>
                             </div>
                             <div className="login text-center py-2 py-lg-0">
                                 <button className="btn bg-danger text-white rounded-pill px-4 mx-5">Login</button>

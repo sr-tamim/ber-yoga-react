@@ -4,6 +4,7 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
+import Pricing from './components/Pricing/Pricing';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Switch>
           <Route exact path="/"><Home /></Route>
           <Route path="/home"><Home /></Route>
+          <Route path="/pricing"><Pricing /></Route>
         </Switch>
         <Footer />
       </Router>

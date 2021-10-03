@@ -15,7 +15,7 @@ const Pricing = () => {
                             <div className="card-body">
                                 <ul className="list-unstyled fs-6 text-center text-lg-start ms-lg-5 mt-3 mb-5">
                                     <li className="mb-3">
-                                        <i className="bi bi-check-circle-fill text-primary me-2"></i> Unlimited Access Video
+                                        <i className="bi bi-check-circle-fill text-primary me-2"></i>Unlimited Access Video
                                     </li>
                                     <li className="mb-3">
                                         <i className="bi bi-check-circle-fill text-primary me-2"></i>

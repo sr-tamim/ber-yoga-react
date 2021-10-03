@@ -1,3 +1,9 @@
+
+#pricing{
+    margin-top: 100px;
+    padding: 20px;
+}
+
 /* added responsiveness */
 @media screen and (min-width: 1200px) {
     #pricing{
