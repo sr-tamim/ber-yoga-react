@@ -15,7 +15,7 @@ const featursContainerStyles = {
     backgroundRepeat: "no-repeat, no-repeat"
 }
 const blogsContainerStyles = {
-    background: "url(./img/abstract-2.png), url(./img/flower2.png)",
+    background: "url(./img/flower.png), url(./img/flower2.png)",
     backgroundPosition: "left 10%, right 90%",
     backgroundRepeat: "no-repeat, no-repeat"
 }
@@ -119,7 +119,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className="container">
+            <section>
                 <Services displayServiceAmount={4} />
             </section>
 

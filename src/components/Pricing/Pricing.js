@@ -3,8 +3,8 @@ import "./Pricing.css";
 
 const Pricing = () => {
     return (
-
         <section id="pricing">
+            <h1 className="display-1 text-center my-5 text-danger">Plans & Pricing</h1>
             <div className="container-fluid container-lg py-5">
                 <div className="row flex-column-reverse flex-md-row justify-content-center align-items-center">
                     <div className="col-12 col-md-4">
