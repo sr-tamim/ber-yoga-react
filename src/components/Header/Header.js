@@ -28,9 +28,12 @@ const Header = () => {
                                 <NavLink className="nav-link px-3 active" aria-current="page" to="/home" activeStyle={{ color: "red" }}>Home</NavLink>
                                 <NavLink className="nav-link px-3" to="/services" activeStyle={{ color: "red" }}>Services</NavLink>
                                 <NavLink className="nav-link px-3" to="/pricing" activeStyle={{ color: "red" }}>Pricing</NavLink>
+                                <NavLink className="nav-link px-3" to="/contact" activeStyle={{ color: "red" }}>Contact</NavLink>
                             </div>
                             <div className="login text-center py-2 py-lg-0">
-                                <button className="btn bg-danger text-white rounded-pill px-4 mx-5">Login</button>
+                                <NavLink to="/login">
+                                    <button className="btn bg-danger text-white rounded-pill px-4 mx-5">Login</button>
+                                </NavLink>
                             </div>
                         </div>
                     </div>
