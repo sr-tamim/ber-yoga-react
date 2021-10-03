@@ -1,0 +1,13 @@
+
+.header-text{
+    padding: 100px 20px 50px;
+}
+
+/* added responsiveness */
+@media screen and (min-width: 1200px) {
+    .header-text h1{ font-size: 50px !important; }
+    .header-text p{ font-size: 20px !important;}
+    #whyUs{
+        margin-top: 200px;
+    }
+}

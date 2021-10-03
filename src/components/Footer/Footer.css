@@ -1,0 +1,22 @@
+
+footer{
+    padding-top: 200px;
+}
+
+footer .container{
+    background:#ffffff41;
+    border-top-left-radius:100px;
+    border-top-right-radius:100px;
+}
+
+footer .footer-link{
+    color: hsl(0, 0%, 40%) !important;
+    text-decoration: none;
+}
+
+/* added responsiveness */
+@media screen and (min-width: 1200px) {
+    footer{
+        margin-top: 200px;
+    }
+}
