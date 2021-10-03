@@ -5,7 +5,7 @@ const Service = props => {
     const { name, thumbnail, classAmount, daysNeeded, Level, duration, price } = props.service;
     return (
         <div>
-            <div className="col">
+            <div className="col px-5 py-4">
                 <div className="card border-0">
                     <img src={thumbnail} className="card-img-top" alt="..." />
 

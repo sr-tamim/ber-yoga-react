@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Services from '../Services/Services';
 import "./Home.css";
 
 const homeContainerStyles = {
@@ -116,6 +117,10 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+            </section>
+
+            <section className="container">
+                <Services displayServiceAmount={4} />
             </section>
 
             <section id="blogs" style={blogsContainerStyles}>
