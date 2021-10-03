@@ -1,0 +1,14 @@
+
+
+#not-found-page{
+    margin: 150px 0;
+}
+
+
+#not-found-page #home-link{
+    text-decoration: none;
+    cursor: pointer;
+}
+#not-found-page #home-link:hover{
+    text-decoration: underline;
+}
