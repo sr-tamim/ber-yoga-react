@@ -24,15 +24,15 @@ const Header = () => {
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse flex-grow-0" id="navBar">
-                            <div className="navbar-nav text-center fw-bold">
+                            <div className="navbar-nav text-center fw-bold fs-5">
                                 <NavLink className="nav-link px-3 active" aria-current="page" to="/home" activeStyle={{ color: "red" }}>Home</NavLink>
                                 <NavLink className="nav-link px-3" to="/services" activeStyle={{ color: "red" }}>Services</NavLink>
                                 <NavLink className="nav-link px-3" to="/pricing" activeStyle={{ color: "red" }}>Pricing</NavLink>
                                 <NavLink className="nav-link px-3" to="/contact" activeStyle={{ color: "red" }}>Contact</NavLink>
                             </div>
-                            <div className="login text-center py-2 py-lg-0">
-                                <NavLink to="/login">
-                                    <button className="btn bg-danger text-white rounded-pill px-4 mx-5">Login</button>
+                            <div className="login text-center py-2 py-lg-0 w-100">
+                                <NavLink className="mx-5" to="/login">
+                                    <button className="btn bg-danger text-white rounded-pill px-4">Login</button>
                                 </NavLink>
                             </div>
                         </div>

@@ -41,7 +41,9 @@ const Home = () => {
                             <button
                                 className="bg-danger text-white border border-2 border-danger rounded-pill px-4 py-2">Services</button>
                         </NavLink>
-                        <button className="bg-transparent border border-2 border-danger rounded-pill px-4 py-2 mx-2">Sign Up</button>
+                        <NavLink to="/login">
+                            <button className="bg-transparent border border-2 border-danger rounded-pill px-4 py-2 mx-2">Sign In</button>
+                        </NavLink>
                     </div>
                     <div className="col"></div>
                 </div>
