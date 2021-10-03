@@ -5,4 +5,4 @@
 - Watch videos from anywhere
 - Lifetime video access
 
-`(Visit Website)[https://ber-yoga-srt.netlify.app]`
+(`Visit Website`)[https://ber-yoga-srt.netlify.app]
