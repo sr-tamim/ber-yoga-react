@@ -46,7 +46,10 @@ const Footer = () => {
                         <div><span className="footer-link">Hiker Store</span></div>
                     </div>
                 </div>
-                <h6 className="text-center m-0 px-5">Copyright © 2021 BerYoga All rights reserved</h6>
+                <h6 className="text-center m-3 px-5">Copyright © 2021 BerYoga All rights reserved</h6>
+                <h6 className="text-center text-muted m-0 px-5">
+                    Created & Developed by <a href="https://github.com/sr-tamim" rel="noreferrer" target="_blank" className="text-decoration-none text-danger">SR TAMIM</a>
+                </h6>
             </div>
         </footer>
     );
