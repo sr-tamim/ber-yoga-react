@@ -26,6 +26,7 @@ const Header = () => {
                         <div className="collapse navbar-collapse flex-grow-0" id="navBar">
                             <div className="navbar-nav text-center fw-bold fs-5">
                                 <NavLink className="nav-link px-3 active" aria-current="page" to="/home" activeStyle={{ color: "red" }}>Home</NavLink>
+                                <NavLink className="nav-link px-3 active" aria-current="page" to="/about" activeStyle={{ color: "red" }}>About</NavLink>
                                 <NavLink className="nav-link px-3" to="/services" activeStyle={{ color: "red" }}>Services</NavLink>
                                 <NavLink className="nav-link px-3" to="/pricing" activeStyle={{ color: "red" }}>Pricing</NavLink>
                                 <NavLink className="nav-link px-3" to="/contact" activeStyle={{ color: "red" }}>Contact</NavLink>
