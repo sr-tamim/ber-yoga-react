@@ -1,0 +1,17 @@
+
+#ourMission > div::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    border: 2px solid #dc3545;
+    border-bottom-style: dashed;
+    border-left-style: dotted;
+    transform: translate(-20px, 20px);
+    transition: border 100ms, transform 500ms;
+    z-index: -1;
+}
+
+#ourMission > div:hover::after{
+    border: 5px solid #dc3545;
+    transform: translate(-15px, 15px);
+}
