@@ -25,7 +25,7 @@ const Services = props => {
         <div className="w-100" style={servicesContainerStyles}>
             <div className="container my-5 py-5">
                 <h1 className="my-4 fw-bold text-center">Our Services & Classes</h1>
-                <div className="row row-cols-1 row-cols-md-2 g-5 px-4 my-4">
+                <div className="row row-cols-1 row-cols-md-2 px-4 my-4">
                     {
                         showServices.map(service => <Service key={service.id} service={service} />)
                     }

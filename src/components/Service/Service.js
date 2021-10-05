@@ -6,7 +6,7 @@ const Service = props => {
     // destructure service details from service object
     const { name, thumbnail, classAmount, daysNeeded, Level, duration, price } = props.service;
     return (
-        <div className="service-container p-5">
+        <div className="service-container px-md-4 p-lg-5 my-5">
             <div className="service col position-relative">
                 <div className="card border-0">
                     <img src={thumbnail} className="card-img-top" alt="" />

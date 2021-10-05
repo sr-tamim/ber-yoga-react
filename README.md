@@ -9,4 +9,4 @@
 ### [`Visit Website`](https://ber-yoga-srt.netlify.app)
 ----------
 
-#### *created and developed by SR TAMIM*
+##### *created and developed by SR TAMIM*
