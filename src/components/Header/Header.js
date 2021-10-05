@@ -15,6 +15,7 @@ const Header = () => {
             <div className="container">
                 <nav className="navbar navbar-expand-lg navbar-light bg-transparent py-4">
                     <div className="container-fluid">
+                        {/* header logo */}
                         <NavLink className="navbar-brand text-danger fw-bold fs-2 py-0" to="/">
                             BerYoga
                         </NavLink>
@@ -24,16 +25,48 @@ const Header = () => {
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse flex-grow-0" id="navBar">
+
+                            {/* header links */}
                             <div className="navbar-nav text-center fw-bold fs-5">
-                                <NavLink className="nav-link px-3 active" aria-current="page" to="/home" activeStyle={{ color: "red" }}>Home</NavLink>
-                                <NavLink className="nav-link px-3 active" aria-current="page" to="/about" activeStyle={{ color: "red" }}>About</NavLink>
-                                <NavLink className="nav-link px-3" to="/services" activeStyle={{ color: "red" }}>Services</NavLink>
-                                <NavLink className="nav-link px-3" to="/pricing" activeStyle={{ color: "red" }}>Pricing</NavLink>
-                                <NavLink className="nav-link px-3" to="/contact" activeStyle={{ color: "red" }}>Contact</NavLink>
+                                <NavLink
+                                    className="nav-link px-3" aria-current="page"
+                                    to="/home"
+                                    activeStyle={{ color: "#dc3545" }}>
+                                    Home
+                                </NavLink>
+                                <NavLink
+                                    className="nav-link px-3"
+                                    aria-current="page"
+                                    to="/about"
+                                    activeStyle={{ color: "#dc3545" }}>
+                                    About
+                                </NavLink>
+                                <NavLink
+                                    className="nav-link px-3"
+                                    to="/services"
+                                    activeStyle={{ color: "#dc3545" }}>
+                                    Services
+                                </NavLink>
+                                <NavLink
+                                    className="nav-link px-3"
+                                    to="/pricing"
+                                    activeStyle={{ color: "#dc3545" }}>
+                                    Pricing
+                                </NavLink>
+                                <NavLink
+                                    className="nav-link px-3"
+                                    to="/contact"
+                                    activeStyle={{ color: "#dc3545" }}>
+                                    Contact
+                                </NavLink>
                             </div>
+
+                            {/* login button */}
                             <div className="login text-center py-2 py-lg-0 w-100">
                                 <NavLink className="mx-5" to="/login">
-                                    <button className="btn bg-danger text-white rounded-pill px-4">Login</button>
+                                    <button className="btn bg-danger text-white rounded-pill fw-bold px-4">
+                                        Login
+                                    </button>
                                 </NavLink>
                             </div>
                         </div>

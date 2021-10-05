@@ -13,10 +13,12 @@ header{
     transition: background 500ms;
 }
 
+/* set navigation links background for small devices */
 #navBar{
     background: white;
     padding: 20px 0;
 }
+/* set navigation links background transparent for large devices */
 @media screen and (min-width: 992px) {
     #navBar{
         background: transparent;

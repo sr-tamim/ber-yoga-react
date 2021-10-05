@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Footer.css";
 
+// set background of footer container
 const footerStyles = {
     background: "url(./img/FOOTER.png)",
     backgroundPosition: "top",
@@ -8,6 +9,7 @@ const footerStyles = {
     backgroundSize: "cover"
 }
 
+// footer component
 const Footer = () => {
     return (
         <footer style={footerStyles}>

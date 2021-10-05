@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-
+// custom hook for fetching services data from json file
 const useServices = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {

@@ -1,3 +1,4 @@
+/* import segeo pro font from cdn font */
 @import url('http://fonts.cdnfonts.com/css/segoe-pro');
 .App {
     font-family: 'Segoe UI', 'Segeo Pro', 'Tahoma', sans-serif;

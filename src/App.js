@@ -1,4 +1,4 @@
-
+// import necessary files and components
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
@@ -15,8 +15,12 @@ import Services from './components/Services/Services';
 function App() {
   return (
     <div className="App">
+      {/* react router */}
       <Router>
+        {/* navigation links in header component */}
         <Header />
+
+        {/* set up route of this website */}
         <Switch>
           <Route exact path="/"><Home /></Route>
           <Route path="/home"><Home /></Route>
@@ -27,6 +31,8 @@ function App() {
           <Route path="/login"><Login /></Route>
           <Route path="*"><NotFoundPage /></Route>
         </Switch>
+
+        {/* website footer shown in every webpage */}
         <Footer />
       </Router>
     </div>

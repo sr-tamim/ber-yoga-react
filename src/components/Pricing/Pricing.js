@@ -1,9 +1,17 @@
 import React from 'react';
 import "./Pricing.css";
 
+// set background for pricing section
+const pricingContainerStyles = {
+    background: "url(./img/flower2.png)",
+    backgroundPosition: "right bottom",
+    backgroundRepeat: "no-repeat"
+}
+
+// pricing component
 const Pricing = () => {
     return (
-        <section id="pricing">
+        <section id="pricing" style={pricingContainerStyles}>
             <h1 className="display-1 text-center my-5 text-danger">Plans & Pricing</h1>
             <div className="container-fluid container-lg py-5">
                 <div className="row flex-column-reverse flex-md-row justify-content-center align-items-center">

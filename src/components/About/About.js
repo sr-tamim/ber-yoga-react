@@ -1,11 +1,14 @@
 import React from 'react';
 import "./About.css";
 
+// css style for feature container
 const featursContainerStyles = {
     background: "url(./img/flower.png), url(./img/abstract-1.png)",
     backgroundPosition: "left top, right bottom",
     backgroundRepeat: "no-repeat, no-repeat"
 }
+
+// about component
 const About = () => {
     return (
         <div className="my-5 py-4">
@@ -33,7 +36,7 @@ const About = () => {
                     </div>
                     <div className="col-12 col-lg-6 p-4 d-flex flex-column justify-content-center">
                         <h1 className="fw-bold mb-5 text-center text-lg-start">What's on BerYoga?</h1>
-                        <div className="service d-flex">
+                        <div className="d-flex">
                             <i className="bi bi-check-lg text-danger fs-4"></i>
                             <div className="ms-2">
                                 <h4>New Classes Every Week</h4>
@@ -43,7 +46,7 @@ const About = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="service d-flex">
+                        <div className="d-flex">
                             <i className="bi bi-check-lg text-danger fs-4"></i>
                             <div className="ms-2">
                                 <h4>Series</h4>
@@ -52,7 +55,7 @@ const About = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="service d-flex">
+                        <div className="d-flex">
                             <i className="bi bi-check-lg text-danger fs-4"></i>
                             <div className="ms-2">
                                 <h4>Pose Directory</h4>

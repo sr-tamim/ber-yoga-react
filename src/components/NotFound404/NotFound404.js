@@ -2,6 +2,7 @@ import React from 'react';
 import { useHistory } from 'react-router-dom';
 import "./NotFound404.css";
 
+// notfound component
 const NotFoundPage = () => {
     const history = useHistory();
     return (

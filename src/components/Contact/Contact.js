@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+// contact component
 const Contact = () => {
     return (
         <div className="container my-5 py-5">

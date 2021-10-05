@@ -7,3 +7,6 @@
 - Lifetime video access
 
 ### [`Visit Website`](https://ber-yoga-srt.netlify.app)
+----------
+
+#### *created and developed by SR TAMIM*

@@ -1,13 +1,18 @@
 
+/* service card animation */
 .service{
     animation: serviceCardAni 1.1s ease-in-out alternate infinite;
 }
+/* change animation duration for even childs */
 .service-container:nth-child(2) .service{
     animation-duration: 900ms;
 }
+
 @keyframes serviceCardAni {
     to{transform: translateY(8px) rotate(1deg);}
 }
+
+
 .service::after, .service::before{
     content: '';
     position: absolute;
@@ -22,7 +27,12 @@
     transform: translate(-20px, -20px) scale(0.8);
     opacity: 0;
 }
-.service:hover::before{ transform: translate(-20px, -20px) scale(1); opacity: 1; }
+
+/* change styles on hover */
+.service:hover::before{
+    transform: translate(-20px, -20px) scale(1);
+    opacity: 1;
+}
 .service:hover::after{
     transform: scale(1.2);
     opacity: 0;

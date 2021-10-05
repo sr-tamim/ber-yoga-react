@@ -3,8 +3,9 @@ import { NavLink } from 'react-router-dom';
 import Services from '../Services/Services';
 import "./Home.css";
 
+// styles for some containers
 const homeContainerStyles = {
-    background: "url(./img/HEADER.png)",
+    background: "url(./img/hero-img.png)",
     backgroundPosition: "top center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "contain"
@@ -15,9 +16,12 @@ const blogsContainerStyles = {
     backgroundRepeat: "no-repeat, no-repeat"
 }
 
+// home component
 const Home = () => {
     return (
+        // main body of homepage
         <main className="pt-5" style={homeContainerStyles}>
+            {/* hero section in homepage */}
             <section className="container py-5">
                 <div className="header-text row row-cols-1 row-cols-md-2">
                     <div className="col" style={{ textShadow: "0 0 10px white" }}>
@@ -44,6 +48,7 @@ const Home = () => {
                 </div>
             </section>
 
+            {/* why us section in homepage */}
             <section id="whyUs" className="container py-5">
                 <div className="section-heading text-center mb-5">
                     <h1 className="fw-bold">Why choose BerYoga?</h1>
@@ -76,10 +81,13 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section>
+
+            {/* services section in homepage */}
+            <section id="services-in-homepage">
                 <Services displayServiceAmount={4} />
             </section>
 
+            {/* blogs section */}
             <section id="blogs" style={blogsContainerStyles}>
                 <div className="container d-flex flex-column py-5">
                     <div className="blog row flex-column flex-md-row align-items-center py-5">

@@ -2,19 +2,23 @@ import React from 'react';
 import useServices from '../../hooks/useServices';
 import Service from '../Service/Service';
 
-
+// styles for all service container
 const servicesContainerStyles = {
     background: "url(./img/abstract-2.png), url(./img/flower2.png)",
     backgroundPosition: "left 10%, right 90%",
     backgroundRepeat: "no-repeat, no-repeat"
 }
 
+// all services container
 const Services = props => {
     const services = useServices();
 
+    // destructure how many services have to be shown from props
     let { displayServiceAmount } = props;
+    // if no props given then show 8 services
     (displayServiceAmount) || (displayServiceAmount = 8);
 
+    // slice services array depending on how many have to be shown
     const showServices = services.slice(0, displayServiceAmount);
 
     return (

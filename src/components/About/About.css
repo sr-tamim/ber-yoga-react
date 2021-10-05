@@ -1,4 +1,5 @@
 
+/* styles for about component */
 #ourMission > div::after{
     content: '';
     position: absolute;
